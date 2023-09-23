@@ -1,0 +1,36 @@
+-> It is a procedural programming language.
+
+#include<stdio.h>
+
+std-> standard
+i  -> input
+o  -> output
+h  -> header file
+
+stdio.h  is a file. It imports all  statements means input and output statements.
+
+printf- used to print the data.
+
+return 0 - if exit coe print 0 that means  file executed successfully otherwise not.
+
+compile:
+
+     sudo gcc ./filename.c 
+
+Run:
+
+
+     ./a.out 
+
+-> if you run all files in one folder then all files have only one excutable file that is a.out whenever run the file on that time that file content will be replaced with the a.out file.
+
+   hello.c  -> compile -> a.out
+
+Variable naming rules:
+
+
+-> Names include letters, digits, underscore
+-> It should not start with digits.
+-> Variable names should not be reserved keyword.
+-> C is case sensitive.
+
