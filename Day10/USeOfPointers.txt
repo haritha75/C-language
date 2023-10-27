@@ -1,0 +1,4 @@
+-> To pass arguments by reference.
+-> For accessing array elements.
+-> To return multiple values.
+-> Dynamic memory allocation.
