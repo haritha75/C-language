@@ -1,0 +1,52 @@
+we have two types of memory allocations
+
+1) Static memory Allocation :
+   
+   -- memroy allocated  in stack area
+   -- it decides at compile-time
+
+2) Dynamic memory Allocation :
+
+   -- It allocated in heap area
+   -- it decides at run-time
+   -- Dynamic memmroy allocation created with either malloc() or calloc() functions only.
+
+malloc() :
+
+   -- it stands for memory allocations
+   -- it is used to allocate the memroy space inside the heap area for this purpose we are using
+   -- It return void pointer
+   -- It does not assigned values intially
+
+   syntax :
+
+   int ptr* = (int*) malloc(n*sizeof(int));
+
+
+free() :
+
+    -- it is used to free the data from the heap for that purpose we are using this one
+    -- it doesnot done automatically
+    -- whenever user can called that time only it happend.
+    -- whever you donot want the data or free up the data from the heap use this one   
+
+
+
+calloc() :
+  
+  -- it stands for contiguous allocation.
+  -- it is also used to create memeory space or size inside the heap
+  -- but intially all values intialized to zero 
+  -- it takes two parameters  one is how manu values we want and another one is size
+
+realloc() :
+
+   -- it stand s for re-allocation
+   -- it is used to resize the previous memroy size for that purpose we are using this one
+   -- it is used only malloc or alloc methods creating size that time only we can resize the size.
+
+
+Null Pointer :
+
+  -- it happend whenever memroy size not allocated perfectly that time it happend
+  -- for example you are given size by using malloc() function but size not fit or enough in the meory that time it happends
